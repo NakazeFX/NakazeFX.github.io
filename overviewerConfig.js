@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "RF_MC - overworld"
+        "RF_MC - overworld",
+        "RF_MC - nether"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1605566041",
+        "cacheTag": "1605567429",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -200,6 +201,29 @@ var overviewerConfig = {
                 64,
                 169
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "Nether Hub",
+            "zoomLevels": 5,
+            "defaultZoom": 5,
+            "maxZoom": 5,
+            "path": "Nether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "RF_MC - nether",
+            "last_rendertime": 1605524730,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                240,
+                64,
+                169
+            ],
+            "minZoom": 3,
+            "spawn": false,
             "north_direction": 0
         }
     ]
