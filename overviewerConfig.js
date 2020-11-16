@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1605563865",
+        "cacheTag": "1605566041",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,11 +41,11 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "RF_MC Day",
+            "name": "RF_MC Day North",
             "zoomLevels": 6,
-            "defaultZoom": 1,
+            "defaultZoom": 6,
             "maxZoom": 6,
-            "path": "Day",
+            "path": "DayUL",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "RF_MC - overworld",
@@ -59,7 +59,7 @@ var overviewerConfig = {
                 64,
                 169
             ],
-            "minZoom": 0,
+            "minZoom": 3,
             "spawn": [
                 240,
                 64,
@@ -68,9 +68,90 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
+            "name": "RF_MC Day Wast",
+            "zoomLevels": 6,
+            "defaultZoom": 6,
+            "maxZoom": 6,
+            "path": "DayUR",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "RF_MC - overworld",
+            "last_rendertime": 1605529416,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                240,
+                64,
+                169
+            ],
+            "minZoom": 3,
+            "spawn": [
+                240,
+                64,
+                169
+            ],
+            "north_direction": 1
+        },
+        {
+            "name": "RF_MC Day Eest",
+            "zoomLevels": 6,
+            "defaultZoom": 6,
+            "maxZoom": 6,
+            "path": "DayLL",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "RF_MC - overworld",
+            "last_rendertime": 1605529416,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                240,
+                64,
+                169
+            ],
+            "minZoom": 3,
+            "spawn": [
+                240,
+                64,
+                169
+            ],
+            "north_direction": 3
+        },
+        {
+            "name": "RF_MC Day South",
+            "zoomLevels": 6,
+            "defaultZoom": 6,
+            "maxZoom": 6,
+            "path": "DayLR",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "RF_MC - overworld",
+            "last_rendertime": 1605529416,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                240,
+                64,
+                169
+            ],
+            "minZoom": 3,
+            "spawn": [
+                240,
+                64,
+                169
+            ],
+            "north_direction": 2
+        },
+        {
             "name": "RF_MC Night",
             "zoomLevels": 6,
-            "defaultZoom": 1,
+            "defaultZoom": 6,
             "maxZoom": 6,
             "path": "Night",
             "base": "",
@@ -86,7 +167,7 @@ var overviewerConfig = {
                 64,
                 169
             ],
-            "minZoom": 0,
+            "minZoom": 3,
             "spawn": [
                 240,
                 64,
@@ -97,7 +178,7 @@ var overviewerConfig = {
         {
             "name": "RF_MC Cave",
             "zoomLevels": 6,
-            "defaultZoom": 1,
+            "defaultZoom": 6,
             "maxZoom": 6,
             "path": "Cave",
             "base": "",
@@ -113,7 +194,7 @@ var overviewerConfig = {
                 64,
                 169
             ],
-            "minZoom": 0,
+            "minZoom": 3,
             "spawn": [
                 240,
                 64,
