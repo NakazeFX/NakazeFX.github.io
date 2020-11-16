@@ -68,7 +68,7 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "RF_MC Day Wast",
+            "name": "RF_MC Day West",
             "zoomLevels": 6,
             "defaultZoom": 6,
             "maxZoom": 6,
@@ -95,7 +95,7 @@ var overviewerConfig = {
             "north_direction": 1
         },
         {
-            "name": "RF_MC Day Eest",
+            "name": "RF_MC Day East",
             "zoomLevels": 6,
             "defaultZoom": 6,
             "maxZoom": 6,
